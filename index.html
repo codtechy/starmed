@@ -14,6 +14,7 @@
         <!-- Favicon -->
         <!-- <link rel="shortcut icon" type="image/x-icon"
             href="assets/images/favicon.ico" /> -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
         <!-- CSS
     ============================================ -->
@@ -1028,8 +1029,99 @@
                     </div>
                 </div>
             </div>
+
+
+<style>
+    .core-values-section {
+  padding: 60px 20px;
+  background: #f4f7f9;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin: 0;
+}
+
+.core-values-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.core-value-card {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.core-value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.core-value-card .icon {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.core-value-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.core-value-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+
+</style>
+            <div class="core-values-section">
+                <div class="section-header">
+                  <!-- <h2>Our Core Values</h2> -->
+                </div>
+                <div class="core-values-grid">
+                  <div class="core-value-card">
+                    <i class="fas fa-check-circle icon"></i>
+                    <h4>Quality</h4>
+                    <p>Commitment to high standards in products & services.</p>
+                  </div>
+                  <div class="core-value-card">
+                    <i class="fas fa-handshake icon"></i>
+                    <h4>Integrity</h4>
+                    <p>Transparent & honest business practices.</p>
+                  </div>
+                  <div class="core-value-card">
+                    <i class="fas fa-lightbulb icon"></i>
+                    <h4>Innovation</h4>
+                    <p>Embracing technology to improve & grow.</p>
+                  </div>
+                  <div class="core-value-card">
+                    <i class="fas fa-users icon"></i>
+                    <h4>Customer Focus</h4>
+                    <p>Delivering value through personalized solutions.</p>
+                  </div>
+                  <div class="core-value-card">
+                    <i class="fas fa-leaf icon"></i>
+                    <h4>Sustainability</h4>
+                    <p>Operating responsibly for a better future.</p>
+                  </div>
+                </div>
+              </div>
+              
             <!-- Product Area End Here -->
-            <div class="shipping-area section-space-y-axis-100">
+            <!-- <div class="shipping-area section-space-y-axis-100">
                 <div class="container">
                     <div class="shipping-bg"
                         data-bg-image="assets/images/shipping/bg/1-1-1280x202.jpg">
@@ -1084,7 +1176,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Begin Newsletter Area -->
 
             <style>
@@ -1858,7 +1950,7 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <a class="brand-item" href="#">
-                                            <img
+                                            <img 
                                                 src="assets/images/brand/1-1.png"
                                                 alt="Brand Image">
                                         </a>
@@ -1916,8 +2008,8 @@
                                 <div class="widget-item">
                                     <div class="footer-logo pb-4">
                                         <a href="index.html">
-                                            <img
-                                                src="assets/images/logo/dark.png"
+                                            <img style="height:30px"
+                                                src="assets/images/logo/white.png"
                                                 alt="Logo">
                                         </a>
                                     </div>
